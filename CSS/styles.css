@@ -313,6 +313,7 @@ body{
     margin-bottom: 16px;
 }
 
+
 .person-soc-list{
     display: flex;
     gap: 10px;
@@ -331,16 +332,51 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--icon-color)
+    color: var(--icon-color);
 }
 
 .person-soc-icon{
-    fill: currentColor
+    fill: currentColor;
 }
 
-.person-soc-link:hover{
+.person-soc-link:hover,
+.person-soc-link:focus{
     background-color: var(--color-light-blue);
     color: var(--color-white);
+}
+
+.clients-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.clients-iteam{
+    width: 170px;
+    height: 92px;
+}
+
+.clients-adres{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icon-color);
+    border: 1px solid;
+    border-color: var(--icon-color);
+    border-radius: 4px;
+}
+
+.clients-logo,
+.clients-iteam{
+    fill: currentColor;
+}
+
+.clients-adres:hover,
+.clients-adres:focus{
+    border-color: var(--color-light-blue);
+    color: var(--color-light-blue);
 }
 
 .foot{
@@ -397,6 +433,50 @@ body{
     text-decoration: none;
     display: block;
 }    
+
+.container-foot{
+    padding-left: 0;
+}
+
+.dsd{
+}
+.gas{
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-soc-list{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-soc-iteam{
+    width: 44px;
+    height: 44px;
+}
+.foot-soc-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.foot-soc-icon{
+    fill: currentColor;
+}
+
+.foot-soc-link:hover,
+.foot-soc-link:focus{
+    background-color: var(--color-light-blue);
+    color: var(--color-white);
+}
 
 .sec-btn{
     font-family: "Roboto", sans-serif;
