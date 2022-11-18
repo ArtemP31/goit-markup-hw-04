@@ -115,7 +115,9 @@ body{
 .list-nav-link:hover,
 .list-nav-link:focus,
 .list-mail:hover,
-.list-mail:focus{
+.list-mail:focus,
+.list-phone:hover,
+.list-phone:focus{
     color:var(--color-light-blue);
 }
 
