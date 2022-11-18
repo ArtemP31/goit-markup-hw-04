@@ -29,13 +29,27 @@
             </ul>
         </nav>
         <ul class="list-nav container-list-adres">
-            <li><a class="list-contact list-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="list-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li>
+                <a class="list-contact list-mail" href="mailto:info@devstudio.com">
+                    <svg class="mail-icon" width="16" height="12">
+                        <use href="./images/icons.svg#icon-mail"></use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+            </li>
+            <li>
+                <a class="list-contact" href="tel:+380961111111">
+                    <svg class="phone-logo" width="16" height="12">
+                        <use href="./images/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11
+                </a>
+            </li>
         </ul>
         </div>
     </header>
     <main>  
-        <section class="sec-back bg-fon">
+        <section class="sec-back">
             <div class="container">
                 <h1 class="sec-front"> 
                     Ефективні рішення для
@@ -52,18 +66,38 @@
                 <h2 class="visually-hidden">Особливості</h2>
             <ul class="list-nav container-list-main">
                 <li class="main-list">
+                    <div class="main-icon-iteam container">
+                        <svg class="main-icon-style"  width="70" height="70">
+                            <use href="./images/icons.svg#icon-antenna"></use>
+                        </svg>
+                    </div>
                     <h3 class="main-list-titel">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="main-list-par">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li class="main-list">
+                    <div class="main-icon-iteam container">
+                        <svg class="main-icon-style"  width="70" height="70">
+                            <use href="./images/icons.svg#icon-clock"></use>
+                        </svg>
+                    </div>
                     <h3 class="main-list-titel">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="main-list-par">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li class="main-list">
+                    <div class="main-icon-iteam container">
+                        <svg class="main-icon-style"  width="70" height="70">
+                            <use href="./images/icons.svg#icon-diagram"></use>
+                        </svg>
+                    </div>
                     <h3 class="main-list-titel">ПЛАНУВАННЯ</h3>
                     <p class="main-list-par">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li class="main-list">
+                    <div class="main-icon-iteam container">
+                        <svg class="main-icon-style"  width="70" height="70">
+                            <use href="./images/icons.svg#icon-astronaut"></use>
+                        </svg>
+                    </div>
                     <h3 class="main-list-titel">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p class="main-list-par">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
@@ -289,9 +323,9 @@
     </main>
 
     <footer class="foot">
-        <div class="container">
-            <a href="./index.html" class="foot-logo" lang="en"> <span class="logo-web">Web</span>Studio</a>
-            <div class="container container-foot">
+        <div class="container-foot container">
+            <div>
+                <a href="./index.html" class="foot-logo" lang="en"> <span class="logo-web">Web</span>Studio</a>
                 <ul class="list-nav">
                     <li class="foot-child">
                         <a class="foot-list" href="https://goo.gl/maps/FaGYjTXJcdozZgpE8" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
@@ -304,40 +338,40 @@
                     </li>
                 </ul>
             </div>
-            
-            <div class="gas">
-                <h2 class="dsd">dwfdsf</h2>
-            <ul class="foot-soc-list list-nav">
-                <li class="foot-soc-iteam">
-                    <a href="#" class="foot-soc-link">
-                        <svg class="foot-soc-icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="foot-soc-iteam">
-                    <a href="#" class="foot-soc-link">
-                        <svg class="foot-soc-icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="foot-soc-iteam">
-                    <a href="#" class="foot-soc-link">
-                        <svg class="foot-soc-icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="foot-soc-iteam">
-                    <a href="#" class="foot-soc-link">
-                        <svg class="foot-soc-icon" width="20" height="20">
-                            <use href="./images/icons.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+            <div class="container-block">
+                <h2 class="dsd">приєднуйтесь</h2>
+                <ul class="foot-soc-list list-nav">
+                    <li class="foot-soc-iteam">
+                        <a href="#" class="foot-soc-link">
+                            <svg class="foot-soc-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="foot-soc-iteam">
+                        <a href="#" class="foot-soc-link">
+                            <svg class="foot-soc-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="foot-soc-iteam">
+                        <a href="#" class="foot-soc-link">
+                            <svg class="foot-soc-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="foot-soc-iteam">
+                        <a href="#" class="foot-soc-link">
+                            <svg class="foot-soc-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
+
         </div>
         
     </footer>

@@ -123,6 +123,12 @@ body{
     color: var(--color-light-blue);
 }
 
+
+
+.mail-icon{
+    fill: currentColor;
+}
+
 .list-contact {
     font-weight: 500;
     font-size: 14px;
@@ -132,14 +138,17 @@ body{
     display: block;
 }
 
+.phone-logo{
+    fill: currentColor;
+}
+
 .sec-back{
     background: var(--back-ground);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-}
-
-.bg-fon{
+    max-width: 1600px;
+    height: 600px;
     background-image: linear-gradient( 
         rgba(47, 48, 58, 0.4),  
         rgba(47, 48, 58, 0.4)
@@ -148,9 +157,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     block-size: auto;
-    flex-grow: 1;
-
+    background-size: cover;
+    margin: 0 auto;
 }
+
+
 
 .container-order{
     display: flex;
@@ -218,6 +229,23 @@ body{
     margin: 0;
     padding: 0;
     flex-basis: calc((100% - 90px) / 4);
+}
+
+.main-icon-iteam{
+    width: 270px;
+    height: 120px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bck-ground);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.main-icon-style{
+    width: 70;
+    height: 70;
 }
 
 .main-list-titel{
@@ -435,22 +463,35 @@ body{
 }    
 
 .container-foot{
-    padding-left: 0;
+    display: flex;
+    gap: 70px;
+}
+
+
+
+.container-block{
+    padding-top: 12px;
+    padding-bottom: 40px;
 }
 
 .dsd{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--color-white);
+    
 }
-.gas{
-    margin-left: 70px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .foot-soc-list{
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .foot-soc-iteam{
@@ -510,7 +551,7 @@ body{
     letter-spacing: 0.06em;
     color: var(--color-nav-link);
     margin-bottom: 4px;
-    
+    text-decoration: none;
 }
 
 .portfolio-doing{
@@ -519,7 +560,7 @@ body{
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--color-gray);
-    
+    text-decoration: none;
 }
 
 .container-filter-nav{
@@ -534,12 +575,17 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    
 }
 
 .filter-border{
-    background: var(--color-white);
     flex-basis: calc((100% - 60px) / 3);
+    background: var(--color-white);
 }
+
+
+
+
 
 .portfolio-common-styles{
     padding-top: 20px;
@@ -549,4 +595,6 @@ body{
     border-right: 1px solid var(--border-portfolio);
     border-bottom: 1px solid var(--border-portfolio);
     border-left: 1px solid var(--border-portfolio);
+    
 }
+
